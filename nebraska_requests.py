@@ -3,6 +3,7 @@ import requests
 
 
 def get_precinct(house_number, street_name, zip_code):
+    url = "https://www.votercheck.necvr.ne.gov/VoterView/PollingPlaceSearch.do"
     payload = {
         "action": "Search",
         "fullElectionListLong": "48377_200000,05/10/2016 Primary Election 2016;48371_200000,11/08/2016 General Election 2016;",
