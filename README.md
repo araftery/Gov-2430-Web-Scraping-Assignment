@@ -9,3 +9,23 @@ To install the required libraries for this repo, execute:
 ```
 pip install beautifulsoup4==4.4.1 requests==2.8.1 selenium==2.52.0 mechanize==0.2.5
 ```
+
+# Results
+* Montana
+    * Example output:
+    ```
+    Example: Richard Hill, DOB: 12/30/1946
+    HELENA VALLEY COMMUNITY CENTER
+    3553 TIZER DR HELENA MT 59602
+    ```
+* Nebraska
+    * Example output:
+    ```
+    Example: 2701 Hickory, Zip Code: 68105
+    Primary Election 2016
+    05/10/2016
+    Not Available
+    Columbus Park Recreation Center
+    1515 South 24th Street Meeting Room (ADA NORTH ENTRANCE)
+    Omaha, NE 68108
+    ```
